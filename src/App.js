@@ -36,7 +36,6 @@ function App() {
     }
     getCountriesData();
   },[]);
-  console.log(tableData);
 
   const onCountryChange = async (event) => {
     const countryCode = event.target.value;
